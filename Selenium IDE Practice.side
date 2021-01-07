@@ -1,0 +1,35 @@
+{
+  "id": "807a1161-671a-437f-a6c3-4b6d5ae8d62d",
+  "version": "2.0",
+  "name": "Selenium IDE Practice",
+  "url": "https://www.facebook.com/",
+  "tests": [{
+    "id": "c54d4fac-2d4a-4f10-8784-0ba14ca341f8",
+    "name": "Untitled",
+    "commands": [{
+      "id": "1834e8d6-c8bc-4cd9-96a8-e696afe5ca55",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "831950e7-1c9e-49f7-8fa9-9f65fb44b1c6",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@id='u_0_2']",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7b50bd4d-63aa-4e4c-9ae0-94690bda50c9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c54d4fac-2d4a-4f10-8784-0ba14ca341f8"]
+  }],
+  "urls": ["https://www.facebook.com/"],
+  "plugins": []
+}

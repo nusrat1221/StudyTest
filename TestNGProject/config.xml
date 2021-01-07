@@ -1,0 +1,23 @@
+<suite name="anything"> 
+<test name="whatever"> 
+<classes>
+
+<class name="com.SmokeTest"></class>
+<class name="com.RegressionTest"></class>
+<methods> 
+<include name= "test1"> </include>
+<include name= "test2"> </include>
+</methods>
+</classes>
+
+</test>
+
+<test name="whatever2">
+<classes>
+<class name="com.SmokeTest"> </class>
+<class name="com.RegressionTest"></class>
+
+</classes>
+
+</test>
+</suite>
